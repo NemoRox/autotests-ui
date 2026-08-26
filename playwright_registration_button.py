@@ -9,7 +9,6 @@ with sync_playwright() as playwright:
     registration_form_username_input = page.get_by_test_id('registration-form-username-input').locator('input')
     registration_form_password_input = page.get_by_test_id('registration-form-password-input').locator('input')
     registration_button = page.get_by_test_id('registration-page-registration-button')
-    dashboard_toolbar_title_text = page.get_by_test_id('dashboard-toolbar-title-text')
 
     page.goto(registration_link)
     expect(registration_button).to_be_disabled()
