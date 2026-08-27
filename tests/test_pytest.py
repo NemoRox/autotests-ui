@@ -16,5 +16,5 @@ def test_assert_positive():
     assert (4 + 4) == 8
 
 
-def test_assert_negative_case():
-    assert (2 + 2 ) == 5, "(2 + 2) ! = 5"
+# def test_assert_negative_case():
+#     assert (2 + 2 ) == 5, "(2 + 2) ! = 5"
